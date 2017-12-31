@@ -80,7 +80,26 @@
 
      Hello, world!
 
+*****************************
+
+     Here's the official solution in case you want to compare notes:
+
+     ─────────────────────────────────────────────────────────────────────────────
+
+         #!/usr/bin/env bash
+
+         echo "Hello, world!"
+
+     ─────────────────────────────────────────────────────────────────────────────
+
+         #!/usr/bin/env bash
+
+         echo "Hello, world!"
+
  ─────────────────────────────────────────────────────────────────────────────
+
+*****************************
+
 
    » To print these instructions again, run: learnyoubash print
    » To execute your program, run: learnyoubash run program.bash
