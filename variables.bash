@@ -1,1 +1,1 @@
-echo "User $USER in directory $HOME."
+echo "User $USER in directory $PWD."
