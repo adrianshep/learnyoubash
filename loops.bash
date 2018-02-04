@@ -18,3 +18,5 @@
 #      16
 
 #   Use for, while or until loops to solve this problem.
+
+or i in {$1..$2}; do echo $i; done
