@@ -19,9 +19,12 @@
 
 #   Use for, while or until loops to solve this problem.
 
-for i in {$1..$2}; do echo $i; done
+# for i in {$1..$2}; do
+#  if [[ $(($i % 2)) == 0 ]]; echo $i; then continue; fi
+# done
 
-for i in {$1..$2}; do
-  if [[ $(($i % 2)) == 0 ]]; then continue; fi
-  echo $i
+i=$1
+while [[ $i -lt $2 ]]; do
+  [ ! $(( $i % 2 )) -eq 0 ] || echo $i
+  i=$(( $i + 1 ))
 done
