@@ -22,3 +22,13 @@
 #         16
 
 #  Use -n with echo to output something on the same line.
+
+# function with params
+greeting () {
+  if [[ -n $1 ]]; then
+    echo "Hello, $1!"
+  else
+    echo "Hello, unknown!"
+  fi
+  return 0
+}
