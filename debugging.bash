@@ -1,4 +1,4 @@
-  Create a file named debugging.bash.
+#  Create a file named debugging.bash.
 
 #  You will receive positional parameters. These positional parameters are
 #  filenames in the format file[hash] (for example file177, file352). Your
