@@ -30,3 +30,12 @@
 
 #  Also, there is the cp command that copies one or more files or
 #  directories. The usage of cp is the same as the mv command.
+
+set -vn
+echo $@
+touch $@
+mkdir ./folder
+mv file* ./folder
+cd ./folder
+ls
+set +vn
